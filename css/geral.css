@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d0000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #320000;
+  color: white;
+}

@@ -1,0 +1,50 @@
+.ctrl-nota {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+  .nota {
+    position: relative;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    height: 25px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .bt- {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .btPlus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .nota::-webkit-slider-runnable-track {
+    height: 25px;
+  }
+
+  .nota::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 100%;
+    width: 20%;
+  }
+}
