@@ -19,3 +19,8 @@ main {
   background-color: #320000;
   color: white;
 }
+
+.tab {
+  display: inline-block;
+  width: 4ch;
+}

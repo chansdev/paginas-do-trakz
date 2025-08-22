@@ -14,7 +14,7 @@ body {
   position: relative;
   box-sizing: border-box;
   -webkit-appearance: none;
-  height: 25px;
+  height: 30px;
   width: 80%;
   display: flex;
   align-items: center;
@@ -28,8 +28,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 30px;
-  height: 25px;
+  height: 30px;
   background-color: white;
+  color: black;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -39,8 +40,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 30px;
-  height: 25px;
+  height: 30px;
   background-color: white;
+  color: black;
   border-radius: 25px;
   cursor: pointer;
 }
